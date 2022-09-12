@@ -1,0 +1,34 @@
+{
+    "name": "globalvisionmedia/oauth2-Harvest",
+    "description": "Harvest  OAuth 2.0 Client Provider for The PHP League OAuth2-Client - updates Nile Suan's provider for Harvest API v2",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Peter Hawkins",
+            "email": "phawkins@gvmedia.com.au",
+            "homepage": "https://www.globalvision.com.au"
+        }
+    ],
+    "keywords": [
+        "oauth",
+        "oauth2",
+        "client",
+        "authorization",
+        "authorisation",
+        "Harvest"
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "league/oauth2-client": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "GlobalVisionMedia\\OAuth2\\HarvestClient\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}

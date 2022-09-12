@@ -1,5 +1,5 @@
 {
-    "name": "globalvisionmedia/oauth2-Harvest",
+    "name": "globalvisionmedia/oauth2-harvest",
     "description": "Harvest  OAuth 2.0 Client Provider for The PHP League OAuth2-Client - updates Nile Suan's provider for Harvest API v2",
     "license": "MIT",
     "authors": [

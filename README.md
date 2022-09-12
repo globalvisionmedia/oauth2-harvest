@@ -33,9 +33,11 @@ Usage is the same as The League's OAuth client, using \GlobalVisionMedia\OAuth2\
 
 # Instantiation
     $provider = new \GlobalVisionMedia\OAuth2\HarvestClient\Provider\Harvest([
-        'clientId'                => 'yourId',          // The Client ID assigned to you by Harvest
-        'clientSecret'            => 'yourSecret',      // The Client Secret assigned to you by Harvest
-        'redirectUri'             => 'yourRedirectUri'  // The Redirect URL you specified for your app on Harvest
+        'clientId'                => 'yourId',                // The Client ID assigned to you by Harvest
+        'clientSecret'            => 'yourSecret',            // The Client Secret assigned to you by Harvest
+        'redirectUri'             => 'yourRedirectUri',       // The Redirect URL you specified for your app on Harvest
+        'accountId'               => 'yourAccountId,          // See point 6 above
+        'userAgent'               => 'My User Agent'          // This can be any string but ideally should identify your application
     ]);
     
 # Tip (also applies to other providers)
@@ -66,8 +68,8 @@ Usage is the same as The League's OAuth client, using \GlobalVisionMedia\OAuth2\
         'redirectUri'       => CALLBACK_URI,
         'clientId'          => HARVEST_CLIENT_ID,
         'clientSecret'      => HARVEST_CLIENT_SECRET,
-        'username'          => HARVEST_ACCOUNT_ID,
-        'password'          => HARVEST_USER_AGENT
+        'accountId'         => HARVEST_ACCOUNT_ID,
+        'userAgent'         => HARVEST_USER_AGENT
       ],
       ['httpClient'         => $httpClient]);
 

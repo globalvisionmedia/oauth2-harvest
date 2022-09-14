@@ -77,7 +77,7 @@ class Harvest extends AbstractProvider {
    protected function getDefaultHeaders($token = null) {
 
     return ['Harvest-Account-Id' => $this->accountId,
-            'Harvest-User-Agent' => $this->userAgent ];
+            'User-Agent'         => $this->userAgent ];
     }
     /**
      * Check a provider response for errors.

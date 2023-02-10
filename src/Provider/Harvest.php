@@ -3,7 +3,7 @@
 namespace GlobalVisionMedia\OAuth2\HarvestClient\Provider;
 
 use League\OAuth2\Client\Provider\AbstractProvider;
-use GlobalVisionMedia\OAuth2\Client\Provider\Exception\HarvestIdentityProviderException;
+use GlobalVisionMedia\OAuth2\HarvestClient\Provider\Exception\HarvestIdentityProviderException;
 use League\OAuth2\Client\Token\AccessToken;
 use League\OAuth2\Client\Tool\BearerAuthorizationTrait;
 use Psr\Http\Message\ResponseInterface;
